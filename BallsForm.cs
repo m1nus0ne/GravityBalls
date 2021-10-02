@@ -21,18 +21,18 @@ namespace GravityBalls
 				VelocityY = 0,
 				Resistance = 1.01,
 				Gravity = 0,
-				Forse = 1000
+				Forсe = 1000
 
 
 
 			};
 			w.BallX = w.WorldHeight / 2;
-			w.BallY = w.BallRadius;
+			w.BallY = w.BallRadius * 2;
 			
 			return w;
 		}
 
-		public double[] MouseEventArgs { get; set; }
+		
 
 		protected override void OnResize(EventArgs e)
 		{
