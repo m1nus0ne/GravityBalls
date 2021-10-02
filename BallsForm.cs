@@ -19,9 +19,9 @@ namespace GravityBalls
 				BallRadius = 40,
 				VelocityX = 0,
 				VelocityY = 0,
-				Resistance = 1.01,
-				Gravity = 0,
-				Forсe = 1000
+				Resistance = 0.9,
+				Gravity = 50000,
+				Forсe = 10000000
 
 
 
